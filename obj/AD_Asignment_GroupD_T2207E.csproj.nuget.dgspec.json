@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj": {}
+    "D:\\Documents\\FPT Aptech\\T2207E_SEM3\\T2207E3_Agile Development (NCC Module)\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj": {}
   },
   "projects": {
-    "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj": {
+    "D:\\Documents\\FPT Aptech\\T2207E_SEM3\\T2207E3_Agile Development (NCC Module)\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj",
+        "projectUniqueName": "D:\\Documents\\FPT Aptech\\T2207E_SEM3\\T2207E3_Agile Development (NCC Module)\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj",
         "projectName": "AD_Asignment_GroupD_T2207E",
-        "projectPath": "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj",
+        "projectPath": "D:\\Documents\\FPT Aptech\\T2207E_SEM3\\T2207E3_Agile Development (NCC Module)\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\obj\\",
+        "outputPath": "D:\\Documents\\FPT Aptech\\T2207E_SEM3\\T2207E3_Agile Development (NCC Module)\\AD_Asignment_GroupD_T2207E\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,11 +59,21 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -80,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

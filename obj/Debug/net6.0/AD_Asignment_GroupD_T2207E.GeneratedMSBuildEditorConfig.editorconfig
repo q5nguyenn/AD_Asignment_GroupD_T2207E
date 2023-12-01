@@ -9,45 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AD_Asignment_GroupD_T2207E
 build_property.RootNamespace = AD_Asignment_GroupD_T2207E
-build_property.ProjectDir = D:\Quy\Aptech\Semester3\AD\Assignment\AD_Asignment_GroupD_T2207E\
+build_property.ProjectDir = D:\Documents\FPT Aptech\T2207E_SEM3\T2207E3_Agile Development (NCC Module)\AD_Asignment_GroupD_T2207E\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Quy\Aptech\Semester3\AD\Assignment\AD_Asignment_GroupD_T2207E
+build_property.MSBuildProjectDirectory = D:\Documents\FPT Aptech\T2207E_SEM3\T2207E3_Agile Development (NCC Module)\AD_Asignment_GroupD_T2207E
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Quy/Aptech/Semester3/AD/Assignment/AD_Asignment_GroupD_T2207E/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Quy/Aptech/Semester3/AD/Assignment/AD_Asignment_GroupD_T2207E/Views/Home/Index.cshtml]
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Accounts/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Quy/Aptech/Semester3/AD/Assignment/AD_Asignment_GroupD_T2207E/Views/Home/Privacy.cshtml]
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Quy/Aptech/Semester3/AD/Assignment/AD_Asignment_GroupD_T2207E/Views/Shared/Error.cshtml]
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Quy/Aptech/Semester3/AD/Assignment/AD_Asignment_GroupD_T2207E/Views/Shared/_LoginPartial.cshtml]
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Shared/_LayoutAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBdXRoZW50aWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Quy/Aptech/Semester3/AD/Assignment/AD_Asignment_GroupD_T2207E/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Quy/Aptech/Semester3/AD/Assignment/AD_Asignment_GroupD_T2207E/Views/_ViewImports.cshtml]
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Quy/Aptech/Semester3/AD/Assignment/AD_Asignment_GroupD_T2207E/Views/_ViewStart.cshtml]
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Quy/Aptech/Semester3/AD/Assignment/AD_Asignment_GroupD_T2207E/Views/Shared/_Layout.cshtml]
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2syfjzg64l

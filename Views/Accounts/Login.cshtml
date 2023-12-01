@@ -1,0 +1,31 @@
+﻿@model LoginModel
+@{
+    Layout = "_LayoutAuthentication";
+}
+
+<div class="w-25 m-auto">
+    <div class="text-center my-4">
+        <h1>Đăng nhập</h1>
+        <div>Chào mừng bạn đã trở lại.</div>
+    </div>
+    <form method="post" asp-controller="Accounts" asp-action="Login" id="formLogin">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" asp-for="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+            <div id="emailHelp" class="form-text">Chúng tôi sẽ không chia sẻ email của bạn với bất kì ai khác.</div>
+        </div>
+        <div class="mb-3">
+            <div class="d-flex">
+                <label for="exampleInputPassword1" class="form-label me-auto">Mật khẩu</label>
+                <a href="" class="link-secondary">Quên mật khẩu ?</a>
+            </div>
+            <input type="password" asp-for="Password" class="form-control" id="exampleInputPassword1" />
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" asp-for="RememberMe" class="form-check-input" id="exampleCheck1" />
+            <label class="form-check-label" for="exampleCheck1">Lưu thông tin đăng nhập</label>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Đăng nhập</button>
+        <div class="text-center border my-3 py-4"><span>Không có tài khoản</span> <a asp-controller="Accounts" asp-action="Register">Đăng ký ngay</a></div>
+    </form>
+</div>

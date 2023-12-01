@@ -1,0 +1,43 @@
+﻿@model RegisterModel
+@{
+    Layout = "_LayoutAuthentication";
+}
+
+<div class="w-25 m-auto">
+    <div class="text-center my-4">
+        <h1>Đăng kí</h1>
+        <div>Bạn đã có tài khoản? <a asp-controller="Accounts" asp-action="Login" class="link-secondary">Đăng nhập</a></div>
+    </div>
+    <form method="post" asp-controller="Accounts" asp-action="Register" id="formRegister" >
+        <div class="mb-3 row">
+            <div class="col">
+                <label asp-for="FirstName" class="form-label">Tên</label>
+                <input type="text" class="form-control" asp-for="FirstName" id="FirstName" aria-describedby="emailHelp" />
+            </div>
+            <div class="col">
+                <label asp-for="LastName" class="form-label">Họ</label>
+                <input type="text" class="form-control" asp-for="LastName" id="LastName" aria-describedby="emailHelp" />
+            </div>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" asp-for="Email" id="Email" aria-describedby="emailHelp" />
+            <span asp-validation-for="Email" style="color: red"></span>
+        </div>
+        <div class="mb-3">
+            <div class="d-flex">
+                <label asp-for="Password" class="form-label me-auto">Mật khẩu<span class="text-secondary">(Tối thiểu 8 ký tự)</span></label>
+            </div>
+            <input type="password" class="form-control" asp-for="Password" />
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Đăng ký</button>
+    </form>
+    <small>
+        Khi đăng ký, bạn đồng ý với <a href="" class="link-secondary">điều khoản</a> và
+        <a href="" class="link-secondary">chính sách quyền riêng tư </a>
+    </small>
+</div>
+
+ @section js {
+     <script src="/js/register.js"></script>
+ }

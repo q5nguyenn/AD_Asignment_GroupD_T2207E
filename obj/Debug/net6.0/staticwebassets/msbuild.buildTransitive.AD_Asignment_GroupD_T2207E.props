@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AD_Asignment_GroupD_T2207E.props" />
+</Project>
