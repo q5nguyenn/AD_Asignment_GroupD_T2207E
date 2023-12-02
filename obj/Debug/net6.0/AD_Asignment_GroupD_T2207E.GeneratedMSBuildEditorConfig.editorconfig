@@ -36,24 +36,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXEluZGV4LmNzaHRtbA==
+[D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Photos/Tag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXFRhZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Documents/FPT Aptech/T2207E_SEM3/T2207E3_Agile Development (NCC Module)/AD_Asignment_GroupD_T2207E/Views/Shared/Error.cshtml]

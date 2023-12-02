@@ -16,5 +16,7 @@ namespace AD_Asignment_GroupD_T2207E.Models
         public string Extension { get; set; }
         public string UserId { get; set; }
         public virtual AppUser User { get; set; }
+
+        public virtual ICollection<PhotoTag>? PhotoTags { get; set; }
     }
 }
