@@ -22,5 +22,6 @@ namespace AD_Asignment_GroupD_T2207E.Data
         public DbSet<AD_Asignment_GroupD_T2207E.Models.Photo> Photos { get; set; }
         public DbSet<AD_Asignment_GroupD_T2207E.Models.Tag> Tags { get; set; }
 		public DbSet<AD_Asignment_GroupD_T2207E.Models.PhotoTag> PhotoTags { get; set; }
+		public DbSet<AD_Asignment_GroupD_T2207E.Models.AppUser> AspNetUsers { get; set; }
 	}
 }

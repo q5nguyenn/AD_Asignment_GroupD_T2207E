@@ -1,0 +1,45 @@
+﻿@model AppUser
+
+<div class="d-flex container">
+    <div class="d-flex flex-column pe-5 flex-shrink-0">
+        <h4 class="my-3">Cài đặt tài khoản</h4>
+        <a href="" class="my-2 link-secondary link-underline-light">Cập nhật thông tin</a>
+        <a href="" class="my-2 link-secondary">Lịch sử download</a>
+        <a href="" class="my-2 link-secondary">Thay đổi mật khẩu</a>
+        <a href="" class="my-2 link-secondary">Xoá tài khoản</a>
+    </div>
+    <div class="w-100">
+        <h4 class="my-3">Cập nhật thông tin</h4>
+        <form class="d-flex" asp-action="ChangeUser" asp-controller="ChangeUsers" method="post">
+            <div class="d-flex flex-column align-items-center px-5">
+                <img style="width: 150px; height: 150px; object-fit: cover"
+                     class="rounded-circle"
+                     src="https://images.unsplash.com/photo-1631947430066-48c30d57b943?q=80&amp;w=1916&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                     alt="" />
+                <label for="avatar"><small class="text-decoration-underline">Đổi ảnh đại diện</small></label>
+                <input type="file" id="avatar" hidden />
+            </div>
+            <div class="w-100">
+                <div class="mb-3 row">
+                    <div class="col">
+                        <label for="exampleInputEmail1" class="form-label">Tên</label>
+                        <input type="text" class="form-control" id="LastName" name="LastName" placeholder="LastName" />
+                    </div>
+                    <div class="col">
+                        <label for="exampleInputEmail1" class="form-label">Họ</label>
+                        <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="FirstName">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="Email" name="Email" placeholder="Email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Tên đăng nhập <span class="text-secondary">(Chỉ các chữ cái, số, và dấu gạch dưới)</span></label>
+                    <input type="text" class="form-control" id="UserName" name="UserName" placeholder="UserName" />
+                </div>
+            </div>
+            <button type="submit" class="btn btn-dark w-100">Cập nhật</button>
+        </form>  
+    </div>
+</div>
