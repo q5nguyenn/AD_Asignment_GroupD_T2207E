@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj": {}
+    "C:\\Demo\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj": {}
   },
   "projects": {
-    "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj": {
+    "C:\\Demo\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj",
+        "projectUniqueName": "C:\\Demo\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj",
         "projectName": "AD_Asignment_GroupD_T2207E",
-        "projectPath": "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Quy\\Aptech\\Semester3\\AD\\Assignment\\AD_Asignment_GroupD_T2207E\\obj\\",
+        "projectPath": "C:\\Demo\\AD_Asignment_GroupD_T2207E\\AD_Asignment_GroupD_T2207E.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\AD_Asignment_GroupD_T2207E\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,11 +54,21 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [

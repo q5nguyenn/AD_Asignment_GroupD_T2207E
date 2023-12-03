@@ -1,0 +1,90 @@
+﻿@model LoginModel
+
+<button class=" btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#uploadModal">Đăng ảnh
+</button>
+
+<div class="modal fade modal-xl" id="uploadModal" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="p-0 me-auto">
+					<span class="fw-bold">Đăng ảnh lên Qotos</span>
+				</div>
+				<a href="" class="link-secondary">Bạn cần trợ giúp?</a>
+				<button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form asp-action="UploadPhoto" asp-controller="UploadPhotos" method="post" enctype="multipart/form-data">
+				<div class="modal-body" id="upload-first-step">
+					<div class="text-center">
+						<label for="FileImg">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Breezeicons-actions-22-upload-media.svg/1024px-Breezeicons-actions-22-upload-media.svg.png"
+								 alt="" style="width: 200px; cursor: pointer" class="mt-5" />
+						</label>
+						<input type="file" id="FileImg" name="FileImg" hidden accept="image/*" />
+						<div class="text-secondary mb-5"><small>Đăng ảnh, tối đa 500KB</small></div>
+						<div class="text-secondary text-start">
+							<small class="d-flex justify-content-center">
+								<ul>
+									<li><b>Hình ảnh chất lượng cao</b>,(đối với ảnh ít nhất <b>500KB</b>)</li>
+									<li>Hình ảnh <b>rõ ràng và nguyên gốc</b></li>
+								</ul>
+								<ul>
+									<li>Chỉ tải lên hình ảnh <b>của bạn</b></li>
+									<li>Không đăng ảnh khoả thân, bạo lực</li>
+								</ul>
+								<ul>
+									<li>Tôn trọng quyền sở hữu trí tuệ của người khác</li>
+									<li>Đọc chính sách của <a href="" class="link-secondary">Qotos</a></li>
+								</ul>
+							</small>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body" id="upload-second-step" style="display: none;">
+					<div class="modal-body" id="upload-second-step">
+						<div class="text-center mb-5">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Breezeicons-actions-22-upload-media.svg/1024px-Breezeicons-actions-22-upload-media.svg.png"
+								 alt="" style="max-width: 400px; cursor: pointer" class="mt-5" id="FileImgPreview" />
+						</div>
+					</div>
+					<div class="mb-3">
+						<input type="text" class="form-control" id="TagName" name="TagName" placeholder="Tag Name">
+					</div>
+					<div class="form-group my-3">
+						<input type="text" class="form-control" id="Location" name="Location" placeholder="Địa điểm">
+					</div>
+					<div class="mb-3">
+						<textarea class="form-control" id="Description" name="Description" rows="3"
+								  placeholder="Thêm mô tả"></textarea>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Huỷ bỏ</button>
+					<span style="cursor: not-allowed;">
+						<button type="submit" class="btn btn-secondary" disabled="true" id="btnSubmitUploadImg">Đăng ảnh</button>
+					</span>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+	$('#FileImg').change(function () {
+	const file = this.files[0];
+	if (file) {
+	let reader = new FileReader();
+	reader.onload = function (event) {
+	$('#FileImgPreview').attr('src', event.target.result);
+	};
+	reader.readAsDataURL(file);
+	}
+	$('#upload-first-step').hide();
+	$('#upload-second-step').show();
+	$('#btnSubmitUploadImg').prop('disabled', false);
+	$('#btnSubmitUploadImg').parent().css('cursor', 'pointer');
+	$('#Location').focus();
+	});
+</script>
