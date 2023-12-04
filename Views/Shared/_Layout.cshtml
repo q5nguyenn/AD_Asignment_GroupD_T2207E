@@ -24,10 +24,13 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <form class="d-flex m-0 w-100" asp-controller="Photos" asp-action="Tag" method="get">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="keyword" />
+          <form class="d-flex m-0 w-100 position-relative" asp-controller="Photos" asp-action="Tag" method="get">
+            <input id="keyword" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="keyword" />
             <button class="btn btn-outline-success" type="submit">Search</button>
+            <div id="searchResult" class="position-absolute mt-2 w-100 bg-white top-100 border rounded p-2" style="z-index: 1; display: none">
+            </div>
           </form>
+          
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-shrink-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Khám phá</a>
@@ -140,5 +143,38 @@
       </div>
     </div>
     <!-- /Modal -->
+
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+  $("#keyword").keyup(function (e) { 
+    $('#searchResult').html("");
+    var keyword = $(this).val();
+    var htmlString = '';
+    $.ajax({
+      type: "POST",
+      contentType: "application/json; charset=utf-8",
+      url: "/API/Search?keyword="+keyword,
+      success: function (data) {
+        if(data.length==0)
+        {
+          htmlString = "<div>Khong co ket qua</div>"
+        }
+        data.forEach(element => {
+          htmlString += `<a href="/Photos/Tag?keyword=${element.tagName}" class="d-block p-2 text-decoration-none text-secondary">${element.tagName}</a>`;
+        });
+        $('#searchResult').html(htmlString);
+        $('#searchResult').show();
+      }
+    });
+  });
+
+  $("#keyword").blur(function (e) { 
+    e.preventDefault();
+    setTimeout(() => {
+      $('#searchResult').hide();
+    }, 1000);
+  });
+  </script>
   </body>
 </html>
